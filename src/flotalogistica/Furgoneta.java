@@ -1,8 +1,5 @@
 package flotalogistica;
 
-/**
- * Furgoneta para productos perecederos, con o sin cadena de frío.
- */
 public class Furgoneta extends Vehiculo {
 
     private static final double RECARGO_REFRIGERACION = 5000.0;
