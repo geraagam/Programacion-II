@@ -1,12 +1,7 @@
 package flotalogistica;
 
-/**
- * Superclase de la flota. Concentra los datos y la lógica que comparten
- * todos los vehículos, para no repetirlos en cada subclase.
- */
 public class Vehiculo {
 
-    // protected: las subclases (Camion, Furgoneta, MotoEnvios) pueden usarlos directamente
     protected String patente;
     protected String marca;
     protected double costoBaseKm;
