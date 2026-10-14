@@ -1,9 +1,5 @@
 package flotalogistica;
 
-/**
- * Camión pesado para transporte interurbano.
- * Un Camion ES-UN Vehiculo: hereda patente, marca y costoBaseKm.
- */
 public class Camion extends Vehiculo {
 
     private double capacidadToneladas;
