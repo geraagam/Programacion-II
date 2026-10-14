@@ -29,10 +29,6 @@ public class MainFlota {
 
         System.out.println("Costo total operativo de la flota: $" + costoTotal);
 
-        // Sobrecarga vs. sobrescritura:
-        // - El compilador elige la versión de 2 parámetros porque se pasan 2 argumentos (sobrecarga).
-        // - Adentro, esa versión llama a calcularCostoViaje(distancia), y como el objeto real
-        //   es un Camion, se ejecuta la versión sobrescrita de Camion (sobrescritura).
         double peajes = 3500.0;
         double costoConPeajes = flota[0].calcularCostoViaje(distancia, peajes);
         System.out.println();
