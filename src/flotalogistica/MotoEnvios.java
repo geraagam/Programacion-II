@@ -1,8 +1,5 @@
 package flotalogistica;
 
-/**
- * Moto para envíos rápidos urbanos. No agrega atributos propios.
- */
 public class MotoEnvios extends Vehiculo {
 
     public MotoEnvios(String patente, String marca, double costoBaseKm) {
